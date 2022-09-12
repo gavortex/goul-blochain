@@ -8,6 +8,7 @@
 
 body {
   margin: 0;
+  background: rgba(255, 255, 255, 0.05);
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,10 +22,10 @@ body {
    
 }
 #window{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     background: rgba(255, 255, 255, 0.05);
-        color: #fff;
+        color: rgb(143, 140, 140);
     padding: 15px;
     border-radius: 20px;
     box-shadow: 0 0 5px black;

@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
 }
 #window2{
     margin-top: -10px;
@@ -29,6 +31,7 @@ body {
     padding: 15px;
     border-radius: 20px;
     box-shadow: 0 0 5px black;
+    text-decoration: none;
 }
 .swapbox_select {
     width: 50%;
@@ -49,6 +52,13 @@ body {
 .token_list_img, .token_image{
     width: 40px;
 }
+.gradient-bg-welcome2 {
+    background-color:#534103;
+    background-image: 
+      radial-gradient(at 0% 0%, rgb(78, 34, 4) 0, transparent 50%), 
+      radial-gradient(at 50% 0%, rgb(192, 127, 7) 0, transparent 50%), 
+      radial-gradient(at 100% 0%, rgb(61, 48, 6) 0, transparent 50%);
+  }
 .gradient-bg-welcome {
     background-color:#000000;
     background-image: 
@@ -57,10 +67,10 @@ body {
       radial-gradient(at 100% 0%, rgb(128, 24, 72) 0, transparent 50%);
   }
   .gradient-bg-footer {
-    background-color: #5a1206;
+    background-color: #0c0b0b;
     background-image: 
-      radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 53%), 
-      radial-gradient(at 50% 150%, hsla(339,49%,30%,1) 0, transparent 50%);
+      radial-gradient(at 0% 100%, rgb(14, 14, 15) 0, transparent 53%), 
+      radial-gradient(at 50% 150%, rgb(2, 2, 2) 0, transparent 50%);
   }
   .white-glassmorphism {
     background: rgba(255, 255, 255, 0.05);
